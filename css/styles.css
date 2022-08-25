@@ -193,29 +193,20 @@ img {
 .feature-list .item {
     width: 270px;
 }
-
-.feature-list .item::before {
-    content: "";
-    display: block;
+.item-bg {
+    padding: 0;
     height: 120px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color:#F5F4FA;
+    display: block;
+    background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
 }
-.icon-antenna::before{
-    background-image: url(../images/antenna_1.svg);
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    
 }
-.icon-clock::before {
-    background-image: url(../images/clock_1.svg);
-}
-.icon-diagram::before {
-    background-image: url(../images/diagram_1.svg);
-}
-.icon-astronaut::before {
-    background-image: url(../images/astronaut_1.svg);
-}
+
 .feature-list .item:not(:last-child) {
     margin-right: 30px;
 }
@@ -260,6 +251,14 @@ img {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+.team-list-link {
+    display: flex;
+}
+.link-icon {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
 }
 .features-title, 
 .work-title, 
