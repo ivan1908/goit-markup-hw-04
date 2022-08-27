@@ -159,14 +159,14 @@ img {
 }
 .mail-link, 
 .phone-link {
-    fill: var(--header-info-link-color);
+    fill: currentColor;
     margin-right: 10px;
 }
 .header-info-link:hover .mail-link,
 .header-info-link:focus .mail-link,
 .header-info-link:hover .phone-link,
 .header-info-link:focus .phone-link {
-    fill: #2196F3;
+    fill: currentColor;
 }
 .hero-title {
     color: var(--hero-title-color);
