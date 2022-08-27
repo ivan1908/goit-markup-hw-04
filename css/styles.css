@@ -115,8 +115,7 @@ img {
 }
 
 .header-site-nav .header-link {
-    color: var(--header-link-color);
-    
+    color: var(--header-link-color); 
 }
 .header-site-nav .header-link:hover,
 .header-site-nav .header-link:focus {
@@ -130,8 +129,7 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 32px 0;
-    display: inline-block;
-    
+    display: inline-block;  
 }
 .header-info-nav {
     display: flex;
@@ -147,7 +145,6 @@ img {
 .header-info-nav .header-info-link:focus {
     color: var(--link-color-focus);
 }
-
 .header-site-nav .header-link.current {
     color: var(--link-color-focus);
 }
@@ -155,75 +152,22 @@ img {
     display: flex;
     margin-right: 10px;
 }
-/* ////////////////////////////////////////////////////////////////// */
-.header-info-link { 
+/* header decoration */
+.header-info-link {
     display: flex;
     align-items: center;
-    
 }
-
-.header-icon-mail {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    height: 12px;
-    width: 16px;
+.mail-link, 
+.phone-link {
+    fill: var(--header-info-link-color);
     margin-right: 10px;
-    fill: #757575;
 }
-.header-icon-phone {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    height: 16px;
-    width: 10px;
-    margin-right: 10px;
-    fill: #757575;
-}
-.header-info-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 44px;
-    width: 44px;
-    background: rgba(255, 255, 255, 0.1);
-}
-.header-info-icon:hover .header-icon-mail,
-.header-info-icon:focus .header-icon-mail,
-.header-info-icon:hover .header-icon-phone,
-.header-info-icon:focus .header-icon-phone {
+.header-info-link:hover .mail-link,
+.header-info-link:focus .mail-link,
+.header-info-link:hover .phone-link,
+.header-info-link:focus .phone-link {
     fill: #2196F3;
 }
-/* ////////////////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero-title {
     color: var(--hero-title-color);
     text-transform: uppercase;
